@@ -17,7 +17,7 @@ class Pokemon
     result = db.execute("SELECT * FROM pokemon WHERE id=?" , id)
     name = result[0][1]
     type = result[0][2]
-    db = result[0][3]
+    # db = result[0][3]
     new_pokemon = self.new(id: id, name: name, type: type, db: db)
  end
 end
