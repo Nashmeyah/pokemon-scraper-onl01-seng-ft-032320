@@ -18,6 +18,6 @@ class Pokemon
     name = result[0][1]
     type = result[0][2]
     # db = result[0][3]
-    new_pokemon = self.new(id: id, name: name, type: type, db: db)
+    new_pokemon = self.new(id: id, name: name, type: type)
  end
 end
